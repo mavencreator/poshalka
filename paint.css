@@ -1,0 +1,22 @@
+body, html {
+  margin:0;
+  padding: 0;
+}
+
+
+.paint {
+  display: block;
+  background-color: #dcdcdc;
+  min-width: 100px;
+  min-height: 100px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow:hidden
+}
+
+.paint .pixel {
+  min-height: 1px;
+  min-width: 1px;
+  position:absolute;
+}
